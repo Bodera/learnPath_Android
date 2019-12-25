@@ -44,7 +44,7 @@ Before we get deeper into how JSON files look like let's cover another  fundamen
 
 <figure>
   <span style="text-align: center;">
-    <img src="/02_HowAnURLooksLike.png" alt="Error loading the components of an URL.">
+    <img src="02_HowAnURLooksLike.png" alt="Error loading the components of an URL.">
 	<figcaption>
 	  Components of an URL.
 	</figcaption>
