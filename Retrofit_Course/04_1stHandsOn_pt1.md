@@ -41,14 +41,14 @@ There are three screens:
   <figcaption style="text-align:center;">1st Screen.</figcaption>
 </figure>
 
-On the first screen, we want to enter our username, just the username without the password for the sake of simplicity. And then we have a `login` bottom, once the login bottom is pressed the app advances to the second screen.
+On the first screen, we want to enter our username, just the username without the password for the sake of simplicity. And then we have a `login` button, once the login button is pressed the app advances to the second screen.
 
 <figure>
   <img src="04_2ndScreen.png" alt="Error loading this image.">	
   <figcaption style="text-align:center;">2nd Screen.</figcaption>
 </figure>
 
-The image above is from the second screen, the user's screen. Here will be the information we want to retrieve from the API, we can see that we will have the picture of the user registered in GitHub, the username, login name, the number of followers, the number of people that the user is following and the user e-mail. That's the main structure of the user's screen. Here we also have a `repositories` bottom, and what we want is that when this bottom is pressed the app loads the third screen.
+The image above is from the second screen, the user's screen. Here will be the information we want to retrieve from the API, we can see that we will have the picture of the user registered in GitHub, the username, login name, the number of followers, the number of people that the user is following and the user e-mail. That's the main structure of the user's screen. Here we also have a `repositories` button, and what we want is that when this button is pressed the app loads the third screen.
 
 <figure>
   <img src="04_3rdScreen.png" alt="Error loading this image.">	
