@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.EditText
 
 class LogInActivity : AppCompatActivity() {
-val i = Intent
+
     private val logIn:Button by lazy{
         findViewById<Button>(R.id.btn_login)
     }
@@ -17,7 +17,7 @@ val i = Intent
         findViewById<EditText>(R.id.input_username)
     }
 
-    //
+    //val i = Intent
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
