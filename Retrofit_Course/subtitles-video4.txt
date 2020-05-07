@@ -1,0 +1,123 @@
+Speaker 0: The challenges we are facing and going to deal with we didn't discard of the chorus.
+
+Speaker 0: So far we've been able to the user interface now we are going to define their race components or in other words to connect our application overweight and retrofit and from their own to take the information from the server.
+
+Speaker 0: And the next important thing is to build the model because if you don't have a structured data will powers exactly the structure of the server or of the information that we won't we come.
+
+Speaker 0: Cold with that communication that communication comes enter into force so let's start the game once at the time.
+
+Speaker 0: The first important thing every time when you'll be able to a project you know you need.
+
+Speaker 0: Structure which exactly matches your expectations and your task because if everything is just somewhere just.
+
+Speaker 0: Do you find it within a class or in different classes that they're just scattered without in your organization the maintenance of the cold Israel it difficult after that.
+
+Speaker 0: So what we are going to do we are going to define it three different packages a dividend model rest.
+
+Speaker 0: We didn't get to the baggage we have our two screens we'll get a dividend and user activity.
+
+Speaker 0: With eighteen D. model package we have for our D. Cup user.
+
+Speaker 0: We didn't the arrest package here will be the rest components we have D. API client or here would you find I'll work in terms of the API and.
+
+Speaker 0: Here we are also going to define D. and points about these particular last line we are going to talk again but so far just define it as the clans although we are going to modify it and name it gets confused there and points what and how we'll see in a minute.
+
+Speaker 0: Let's turn to wind building G. user small though so let's step back we are within the model package we didn't get could be user and how we understand what the information we need to always be in the user's screen within the model Y. T. easy actually we are fulfilling exactly the structure that we defined as users interface or in other words this is the information we want to visualize within our application.
+
+Speaker 0: Silt in order to keep the old people into both your project oriented principles we will define our field as private so on top of the terms we are just defining the field we are going to use after that you remember probably shields defined as private and guitarist and think they're so after that we are going to be defined as public this is exactly what to do.
+
+Speaker 0: Don't abound we are defining got all our fields as private.
+
+Speaker 0: Full the public getters and setters a pair of get there is that there for each of the fields.
+
+Speaker 0: And after that between the definition of the fields and to get there said the repairs we are defining I'll word constructor only one constructor we are going to use and we are going to enumerate all of the fields all of the fields are to be accepted as a perimeter of the constructor and in order to be sure that we passed through the guitar center terrorists rather than through the private field we define the constructor and one which passes through the statement that exactly on the way defined here I hope you don't find it we are at and you are aware of the object oriented principles if not you may either going to take my other chorus about old P. or just gold ones that's reading because even if you don't know what the constructor is what fields are how do you ever do find and what's the relation between all of them it'll be really difficult Correo to all.
+
+Speaker 0: Go on with programming can general.
+
+Speaker 0: Okay so we heard our concerns.
+
+Speaker 0: We've defined the fields the constructor the guitar centers let's go to all the rest package and it's turned to building first our client.
+
+Speaker 0: When you hear all our clients imagine a really deep in the systems of the D. APR E. we are going to use to connect with the server we did correct the AT&T data we need and the breeze tiny piano we are going to need as we stroll east will keep it on this address eight PM nine don't get cold dot com this is.
+
+Speaker 0: There is one basic U. R. L. or based hero which always works and set an end point and since thirteen point chrome where all of you all Parisians after dad that are to be done.
+
+Speaker 0: So how we are doing it we are defining one.
+
+Speaker 0: Public methods and we are taking even the instance of a read through it you know please create a new instance in short that's what the meta dos so we are seeing content ET quote to all I knew instance of rhetoric we are calling to the builder meant that and we are staying please take the power meter that I am giving you here or this is the U. R. L. all of our API and build it and as soon as you finish with the cold return me the current instance of retrofit.
+
+Speaker 0: But there is something specific.
+
+Speaker 0: So the primary tool two point.
+
+Speaker 0: Zero one version of a retrofit the default converter was a GSM converter.
+
+Speaker 0: But from now on you need to explicitly specify you want a GSM converter and that's why I told you that D. G. sun or G. song converter is an indivisible part of the declaration of Britain three we didn't agree they'll file so this dependency really goals or with the declaration of printers with itself.
+
+Speaker 0: And in order the whole process to be finished here we need to add to our convert their factory we are adding kick calling gun in terms of just don't convert their factory and creating K..
+
+Speaker 0: So that's called the Old World cooled off our API client that used to look like.
+
+Speaker 0: The next part of the arrest part of our application is building the end points.
+
+Speaker 0: If you remember want to ease Menton Bonnie end points easy actually the specific please where all water resources east of bill locate that.
+
+Speaker 0: So we are having our base URL.
+
+Speaker 0: From their own we find that the user U. R. L. you will keep it here and you remember it the parent meet there we did the curly brackets actually means that is something that needs to be substituted dynamic collect you know the very is your permission to be retrieved.
+
+Speaker 0: Here we didn't do user declaration we are going to use the L. login information of the user.
+
+Speaker 0: You for example money needs to be added you'll give a G. if I'm not wrong ticket in a minute so this one here is going to be a and here as you see within the euro you are going to see your old credentials.
+
+Speaker 0: Let's see again so this is our eight PM this is the base year L. and here we are having our link user E. U. R. L. alright and here instead of the user I'm writing to minor.
+
+Speaker 0: Here you are something that we did the actual let.
+
+Speaker 0: Okay and this is the information if you write down here your login information your city is going to appear.
+
+Speaker 0: I don't do that then I'm using good V. G. sun viewer all right and this is the information that they need until late I need to take the information to.
+
+Speaker 0: Which refers to a particular field if you think of these think of them as fields.
+
+Speaker 0: Okay so I need the login I need.
+
+Speaker 0: The force the full link G. email just concede a hot yeah G. email.
+
+Speaker 0: And the name as well as the image but will speak about the avatars in a minute.
+
+Speaker 0: So that's how dean for Mason walks visual late goal and then used the proceeds between yet all right so as we saw how the eight county is structured we are going to word you could use their end points pile.
+
+Speaker 0: And be clear right declaring actually our path first please keep in mind that it's not the clowns but interface and each means that here we are only going to decline I'll we're meant that.
+
+Speaker 0: What the declaration means and how it's presented first of all we done annotation we are think which meant that we are going to use and in this case we have the get method because it we are going to search for particular resources that are located the only unique path.
+
+Speaker 0: D. or D. end point is represented blind that.
+
+Speaker 0: First here we go the base URL then we have slash user slash and in curly brackets you know we need to have one unique drink.
+
+Speaker 0: Do you string exactly in order to see that do you think needs to be dynamically taken within the declaration we act after indeed hacked annotation.
+
+Speaker 0: In addition thanks please take these.
+
+Speaker 0: During room here and substitute it with something that I'm going to give you after that.
+
+Speaker 0: And Owen we use our our end point we didn't the main activity in a while we need to provide here the string which drink will be parsed D. U. R. L..
+
+Speaker 0: And in fact were walking from the first screen is going to be an attribute it that's a valid tool this drink here and this drink here is going to be harvested and the last bar a meter of D. U. R. L. that's our logic it's really not that difficult and we're calling the model you know the tool Deek after that the exact proper tests.
+
+Speaker 0: DM get meant that is going to return us and boy do you have our request the whole information from the beach and we are going to take all the information that is valuable for us how we are going to do it in a while but then think important before moving called.
+
+Speaker 0: Thank you so that each of the declarations or reading the API consists of two parts the first part is the key the second part the value I. S. a G. some.
+
+Speaker 0: So the keys needs to be exactly the same as the names or we'd be in our class declaration desire really the keys that unlock I think for them on this week these are the keys that unlock the content look he did we didn't develop.
+
+Speaker 0: Still here what we are doing we deny our model clowns.
+
+Speaker 0: A bomb each of the fields we are actually referring to the key that you may find that we didn't D. A. P. I. D. Sir.
+
+Speaker 0: And evil for more of the fields there is no difference between the way we do find them and the way they can be found we can get a P. nine here you may see that there is a difference.
+
+Speaker 0: So when we start seeking for information the key value pair is going to be searched on these key avatar underscore U. R. L. and on display each going to be found let's just to call this one was in the API so opening kit we may see that G. of art are you R. L. here you are it's located on this way we have the key and we need to access the value and you know the decline to be entered we need to pass the correct key.
+
+Speaker 0: Okay once finishing with this we are ready to continue with retrieving the information and in searching kick we can our region.

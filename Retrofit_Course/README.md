@@ -15,3 +15,9 @@ Now you will be presented the topics covered on this course:
 * Play with popular API's like GitHub, StackOverflow, Instagram and Gmail.
 
 This course won't cover how to create your own API from scratch, for that purpose consider try to find some other course.
+
+## Contents
+
+* [How the paradigm works](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/01_Paradigm.md)
+* [Frequently used terminology](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/02_Terminology.md)
+* [First experience using GitHub API](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn.md)
