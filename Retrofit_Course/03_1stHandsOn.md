@@ -1,4 +1,4 @@
-## 1st Hands-on (GitHub API)
+# First Hands-on (GitHub API)
 
 Welcome back.
 
@@ -106,9 +106,11 @@ Try to check out the endpoints by substituting the values on the resources.
     android:onClick="getUser"/>
 </RelativeLayout>
 ```
-4. Notice that you will also have to add an `dimens.xml` resource file under `res` ➜ `values` tree.
 
-*dimens.xml*
+* Notice that you will also have to add an `dimens.xml` resource file under `res` ➜ `values` tree.
+
+Code for *dimens.xml*:
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
@@ -118,7 +120,8 @@ Try to check out the endpoints by substituting the values on the resources.
 </resources>
 ```
 
-*strings.xml*
+Code for *strings.xml*:
+
 ```xml
 <resources>
     <string name="app_name">DemoGitHubAPI</string>
@@ -130,7 +133,8 @@ Try to check out the endpoints by substituting the values on the resources.
 
 ```
 
-*colors.xml*
+Code for *colors.xml*:
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
@@ -149,7 +153,7 @@ Try to check out the endpoints by substituting the values on the resources.
 </resources>
 ```
 
-5. Now we are going to add the functionalities in the `LoginActivity.java`, above is the code:
+Now we are going to add the functionalities in the `LoginActivity.java`:
 
 ```java
 package com.example.demogithubapi.activity;
@@ -193,7 +197,7 @@ public class LoginActivity extends AppCompatActivity {
 
 It's time to inject the necessary dependencies to our project, the [Retrofit library](https://github.com/square/retrofit) and the [Gson library](https://github.com/google/gson). Retrofit is an HTTP client and the Gson is useful to convert Java objects to the JSON representation.
 
-1. Open the `build.gradle` (*Module:app*) file. Should look like this:
+Open the `build.gradle` (*Module:app*) file. Should look like this:
 
 ```java
 apply plugin: 'com.android.application'
@@ -238,7 +242,7 @@ dependencies {
 }
 ```
 
-2. Add the remote binaries that refer to the libraries into the `dependencies` block.
+Add the remote binaries that refer to the libraries into the `dependencies` block.
 
 ```java
 dependencies {
@@ -256,7 +260,7 @@ dependencies {
 }
 ```
 
-3. Also update your `AndroidManifest.xml` and add the INTERNET permission below the *package="package_name"* line.
+Also update your `AndroidManifest.xml` and add the INTERNET permission below the *package="package_name"* line.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -272,7 +276,7 @@ dependencies {
 </manifest>
 ```
 
-4. Time to create the `activity_user.xml` layout file. The code is below:
+Time to create the `activity_user.xml` layout file. The code is below:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -335,7 +339,7 @@ dependencies {
 </LinearLayout>
 ```
 
-5. In order to make the code above work, you need to modify the `styles.xml` resource file under `res` ➜ `values` tree.
+In order to make the code above work, you need to modify the `styles.xml` resource file under `res` ➜ `values` tree.
 
 ```xml
 <resources>
@@ -359,7 +363,7 @@ dependencies {
 </resources>
 ```
 
-6. Now we are going to add functionalities to the `UserActivity.java` file.
+Now we are going to add functionalities to the `UserActivity.java` file.
 
 ```java
 package com.example.demogithubapi.activity;
