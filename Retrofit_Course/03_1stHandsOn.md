@@ -6,11 +6,11 @@ Having already passed through the basic concept and terminology, we are actually
 
 ## Summary
 
-* [Briefing](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn_pt1.md#briefing)
-* [Android project setup](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn_pt1.md#project-setup)
-* [Building login screen](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn_pt1.md#building-login-screen)
-* [Building user screen](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn_pt1.md#building-login-screen)
-* [Building REST logic](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn_pt1.md#building-rest-logic)
+* [Briefing](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn.md#briefing)
+* [Android project setup](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn.md#project-setup)
+* [Building login screen](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn.md#building-login-screen)
+* [Building user screen](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn.md#building-login-screen)
+* [Building REST logic](https://github.com/Bodera/learnPath_Android/blob/master/Retrofit_Course/03_1stHandsOn.md#building-rest-logic)
 
 ### Briefing
 
